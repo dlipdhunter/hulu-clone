@@ -13,7 +13,7 @@ function Trending({ results }) {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<Header />
+			<Header showAccount={true} />
 			<Nav items={currentNavItem} clickable={false} />
 			<Movies results={results} />
 		</div>

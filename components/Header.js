@@ -8,7 +8,7 @@ import {
 	UserIcon,
 } from '@heroicons/react/outline';
 
-function Header() {
+function Header({ showAccount }) {
 	const { data: session } = useSession();
 
 	return (
@@ -26,7 +26,7 @@ function Header() {
 						<HeaderItem title="SEARCH" route="/search" Icon={SearchIcon} />
 					</>
 				)}
-				{!session && (
+				{showAccount && (
 					<HeaderItem title="ACCOUNT" route="/account" Icon={UserIcon} />
 				)}
 			</div>

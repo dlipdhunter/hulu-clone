@@ -12,7 +12,7 @@ export default function Home({ results }) {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<Header />
+			<Header showAccount={true} />
 			<Nav items={requests} clickable={true} />
 			<Movies results={results} />
 		</div>

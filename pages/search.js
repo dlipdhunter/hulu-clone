@@ -12,7 +12,7 @@ export default function Search({ results }) {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<Header />
+			<Header showAccount={true} />
 			<Searchbar />
 			<Movies results={results} />
 		</div>
