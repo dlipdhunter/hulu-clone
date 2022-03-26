@@ -24,9 +24,9 @@ export default function Searchbar() {
 						value={searchTerm}
 						onChange={(e) => setSearchTerm(e.target.value)}
 					/>
-					<div className="absolute top-4 right-3">
+					<button className="absolute top-3 right-3">
 						<SearchCircleIcon className="h-8 text-gray-400 z-20 hover:text-gray-500" />
-					</div>
+					</button>
 				</div>
 			</form>
 		</div>

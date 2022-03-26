@@ -26,3 +26,4 @@ export default {
 
 export const genresRequestUrl = `${base_url}/genre/movie/list?api_key=${API_KEY}&language=en-US`;
 export const searchRequestUrl = `${base_url}/search/movie?api_key=${API_KEY}&language=en-US&query=$QUERY$&page=1&include_adult=false`;
+export const movieByIdRquestUrl = `${base_url}/movie/$MOVIEID$?api_key=${API_KEY}&language=en-US&append_to_response=videos`;
