@@ -1,7 +1,6 @@
 import Image from 'next/image';
 
 export default function MovieDetail({ movie }) {
-	console.log(movie);
 	const BASE_URL = 'https://image.tmdb.org/t/p/original/';
 
 	return (
